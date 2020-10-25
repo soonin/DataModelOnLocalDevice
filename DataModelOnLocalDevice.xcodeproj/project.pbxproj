@@ -12,6 +12,8 @@
 		FAA24F3E2533B39300989A4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA24F3C2533B39300989A4D /* Main.storyboard */; };
 		FAA24F402533B39500989A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA24F3F2533B39500989A4D /* Assets.xcassets */; };
 		FAA24F432533B39500989A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA24F412533B39500989A4D /* LaunchScreen.storyboard */; };
+		FAA24F4B2533B3C200989A4D /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA24F4A2533B3C200989A4D /* MainModel.swift */; };
+		FAA24F4D2533B58C00989A4D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA24F4C2533B58C00989A4D /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FAA24F3F2533B39500989A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA24F422533B39500989A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA24F442533B39500989A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA24F4A2533B3C200989A4D /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		FAA24F4C2533B58C00989A4D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				FAA24F382533B39300989A4D /* AppDelegate.swift */,
 				FAA24F3A2533B39300989A4D /* ViewController.swift */,
+				FAA24F4A2533B3C200989A4D /* MainModel.swift */,
+				FAA24F4C2533B58C00989A4D /* DataManager.swift */,
 				FAA24F3C2533B39300989A4D /* Main.storyboard */,
 				FAA24F3F2533B39500989A4D /* Assets.xcassets */,
 				FAA24F412533B39500989A4D /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAA24F3B2533B39300989A4D /* ViewController.swift in Sources */,
+				FAA24F4D2533B58C00989A4D /* DataManager.swift in Sources */,
 				FAA24F392533B39300989A4D /* AppDelegate.swift in Sources */,
+				FAA24F4B2533B3C200989A4D /* MainModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

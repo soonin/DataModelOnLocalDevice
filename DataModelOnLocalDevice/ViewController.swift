@@ -12,7 +12,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        let mainItem = MainModel(title:"WordBook",details: "Word format",completed:false,createdAt: Date(), itemIdentifier: UUID())
+//        mainItem.saveItem()
+        
+        let loadMainItems = DataManager.loadAll(MainModel.self)
+        
+        //print(loadMainItems)
+        for oneItem in loadMainItems {
+            print(oneItem.toString())
+        }
+        
     }
 
 
